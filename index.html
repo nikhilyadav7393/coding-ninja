@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header of music player  -->
+
+    <header class="nav-container">
+        <nav>
+            <div class="music-logo">
+                <!-- logo of left side  of navbar  -->
+                <img src="./image/logo.png" alt="logo-image">
+                <h3>Music<br>Player</h3>
+                <button class="faviorate-content">faviorate</button>
+            </div>
+
+            <!-- right side of navbar which contain logo and icon -->
+            <div class="right-logo">
+                <!-- search bar which is present in center of navbar -->
+                <form action="">
+                    <button><i class='bx bx-search-alt-2 search-icon'></i></button>
+                    <input type="text " placeholder="         Search...">
+                    <button><i class='bx bx-microphone'></i></button>
+                </form>
+                <div class="bell">
+                    <i class='bx bx-bell'></i>
+                </div>
+                <div class="right-music-logo">
+                    <img src="./image/title.jpg" alt="" id="player">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- section    .......... -->
+    <section>
+        <div class="current-albums-body">
+            <!-- ..... currently played albums -->
+            <div class="current">
+                <div class="current_img">
+                    <img src="./image/download011.jpg" alt="album.img">
+                </div>
+                <div class="current_details">
+                    <div class="upper_bar">
+                        <h2>ColdPlay</h2>
+                        <H3>851 Followers</H3>
+                    </div>
+                    <div class="contents">
+                        <h4>British Band</h4>
+                        <p>
+                            ColdPlay is a British music band that has enjoyed continous seccess their inception in 1956
+                            through
+                            their intelligent and soulful songs. The band members are Chris Martin {lead vocals}, jonny
+                            Buckland
+                            lead guitar,Guy Berryman {bass guitar} and will Champion {drums}
+                        </p>
+                    </div>
+                    <div class="lowwer_bar">
+                        <div class="playBtn">
+                            <button>Play All</button>
+                            <h3>Follow</h3>
+                        </div>
+                        <div class="tracks">
+                            247 Tracks | 128 Albums
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .......similar playlist.................... -->
+
+            <div class="similar-playlist-library">
+                <div class="similar_header">
+                    <h2>Similar Artists </h2>
+                    <button>View All</button>
+                </div>
+                <!-- first album .............................. -->
+                <div class="similar-Playlist">
+                    <div class="similar_song">
+                        <img src="./image/download012.jpg" alt="">
+                    </div>
+                    <div class="similar-song_details">
+                        <h2>Imagine Dragons</h2>
+                        <h3>Pop Band</h3>
+                    </div>
+                    <div class="similar-song_icon">
+                        <h3>...<br>4:44</h3>
+                    </div>
+                </div>
+                <!-- second album.......................... -->
+                <div class="similar-Playlist">
+                    <div class="similar_song">
+                        <img src="./image/download012.jpg" alt="">
+                    </div>
+                    <div class="similar-song_details">
+                        <h2>Imagine Dragons</h2>
+                        <h3>Pop Band</h3>
+                    </div>
+                    <div class="similar-song_icon">
+                        <h3>...<br>4:44</h3>
+                    </div>
+                </div>
+                <!-- third album.................................. -->
+                <div class="similar-Playlist">
+                    <div class="similar_song">
+                        <img src="./image/download012.jpg" alt="">
+                    </div>
+                    <div class="similar-song_details">
+                        <h2>Imagine Dragons</h2>
+                        <h3>Pop Band</h3>
+                    </div>
+                    <div class="similar-song_icon">
+                        <h3>...<br>4:44</h3>
+                    </div>
+                </div>
+                <!--  . .....fourth albums -->
+                <div class="similar-Playlist">
+                    <div class="similar_song">
+                        <img src="./image/download012.jpg" alt="">
+                    </div>
+                    <div class="similar-song_details">
+                        <h2>Imagine Dragons</h2>
+                        <h3>Pop Band</h3>
+                    </div>
+                    <div class="similar-song_icon">
+                        <h3>...<br>4:44</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- /......second part of body -->
+    <section>
+        <div class="second-part">
+            <div class="leftSide">
+                <div class="playlist">
+                    <div class="first_playlist">
+                        <div class="first_img">
+                            <p id="sno">01</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="second">
+
+                            <h3>04:44</h3>
+                        </div>
+                        <div class="third_icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                    </div>
+                    <div class="first_playlist">
+                        <div class="first_img">
+                            <p id="sno"><i class='bx bx-bar-chart'></i></p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="second">
+
+                            <h3>04:44</h3>
+                        </div>
+                        <div class="third_icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                    </div>
+                    <div class="first_playlist">
+                        <div class="first_img">
+                            <p id="sno">03</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="second">
+
+                            <h3>04:44</h3>
+                        </div>
+                        <div class="third_icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                    </div>
+                    <div class="first_playlist">
+                        <div class="first_img">
+                            <p id="sno">04</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="second">
+
+                            <h3>04:44</h3>
+                        </div>
+                        <div class="third_icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                    </div>
+                    <div class="first_playlist">
+                        <div class="first_img">
+                            <p id="sno">05</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="second">
+
+                            <h3>04:44</h3>
+                        </div>
+                        <div class="third_icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="recently">
+                    <div class="recentlty_header">
+                        <h2>Recently Played</h2>
+                        <button>View All</button>
+                    </div>
+                    <div class="first-recently_play">
+                        <div class="first_img">
+                            <p id="sno">01</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="first_recently_icon">
+                            <i class='bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="first-recently_play">
+                        <div class="first_img">
+                            <p id="sno"><i class='bx bx-bar-chart'></i></p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="first_recently_icon">
+                            <i class='bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="first-recently_play">
+                        <div class="first_img">
+                            <p id="sno">03</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="first_recently_icon">
+                            <i class='bx bx-heart'></i>
+                        </div>
+                    </div>
+                    <div class="first-recently_play">
+                        <div class="first_img">
+                            <p id="sno">04</p>
+                            <img src="./image/download.jpg" alt="">
+                            <h3>Mirage<br><span>Else</span></h3>
+                        </div>
+                        <div class="first_recently_icon">
+                            <i class='bx bx-heart'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ...........footer section.................. -->
+
+    <footer>
+        <section class="footer_container">
+            <div class="footer_first">
+                <div class="footer_first_details">
+                    <img src="./image/footerimage.jpg" alt="">
+                </div>
+                <h3>Mirage<br><span>Else</span></h3>
+                <div class="first_recently_icon">
+                    <i class='bx bx-heart'></i>
+                    <i class='bx bx-block'></i>
+                </div>
+            </div>
+            <div class="footer_second">
+                <div class="upper_icon">
+                    <i class='bx bx-shuffle'></i>
+                    <i class='bx bx-skip-previous'></i>
+                    <i class='bx bx-pause'></i>
+                    <i class='bx bx-skip-next'></i>
+                    <i class='bx bx-move-horizontal'></i>
+                </div>
+                <div class="lower_icon">
+                    <P>1:39 <input type="range"> 4:44</P>
+                </div>
+            </div>
+            <div class="footer_third">
+                <i class='bx bx-right-indent'></i>
+                <i class='bx bxs-devices'></i>
+                <i class='bx bx-volume-full'></i>
+                <input type="range" name="" id="volume">
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
